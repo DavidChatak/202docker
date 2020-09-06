@@ -11,5 +11,6 @@ sudo wget https://raw.githubusercontent.com/DavidChatak/202docker/master/booksto
 sudo wget https://raw.githubusercontent.com/DavidChatak/202docker/master/docker-compose.yaml  -P /home/ec2-user
 sudo wget https://raw.githubusercontent.com/DavidChatak/202docker/master/Dockerfile -P /home/ec2-user
 sudo wget https://raw.githubusercontent.com/DavidChatak/202docker/master/build-script.sh -P /home/ec2-user
+sudo wget https://raw.githubusercontent.com/DavidChatak/202docker/master/requirements.txt -P /home/ec2-user
 docker build -t davidchatak/bookstore-api:latest .
 docker-compose up
